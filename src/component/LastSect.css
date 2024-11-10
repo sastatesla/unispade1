@@ -1,0 +1,127 @@
+.last-sect-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 1rem; /* Add padding for mobile responsiveness */
+
+  }
+  
+  .last-sect-title {
+    width: 100%;
+    max-width: 946px;
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .last-sect-description {
+    width: 100%;
+    max-width: 1024px;
+        height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  
+  .last-sect-primary-btn {
+    margin-top: 1.25rem;
+    background-color: #191e22;
+    color: white;
+    width: 100%;
+    max-width: 504px;
+        height: 50px;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .last-sect-secondary-text {
+    margin-top: 0.5rem;
+    width: 100%;
+    max-width: 790px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .last-sect-secondary-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 504px;
+    height: 50px;
+    border: 1px solid #191e22;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  /* Responsive Styles */
+@media (max-width: 768px) {
+  .last-sect-title {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      line-height: 35px;
+      font-weight: 700;
+
+  }
+ 
+
+  .last-sect-description,
+  .last-sect-secondary-text {
+      font-size: 16px; /* Reduce font size for readability */
+      line-height: 26px;
+      height: auto;
+      font-weight: 400;
+  }
+
+  .last-sect-secondary-btn {
+      font-size: 16px; /* Adjust button font size */
+      height: 50px;
+      font-weight: 500;
+      line-height: 22px;
+      
+  }
+  .last-sect-primary-btn{
+    font-size: 16px; /* Adjust button font size */
+    height: 60px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 20px;
+  }
+
+  .last-sect-primary-btn{
+    height: 74px
+  }
+
+  .last-sect-container{
+    margin: 0; 
+    padding-top: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .last-sect-title {
+      font-size: 32px;
+      line-height: 38px;
+  }
+
+  .last-sect-description,
+  .last-sect-secondary-text {
+      font-size: 14px;
+      line-height: 22px;
+  }
+
+
+}

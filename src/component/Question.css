@@ -1,0 +1,34 @@
+.question-container {
+    width: 663px;
+    height: 109px;
+    margin: 3rem 0;
+  }
+  
+  .question-title {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .question-answer {
+    color: #4a4a4a; /* This is the Tailwind color `text-gray-700` */
+  }
+  
+  .question-divider {
+    width: 100%;
+    height: 1.5px;
+    background-color: #e7e3e9;
+    margin-top: 2rem;
+  }
+  .question-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-icon {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+  
