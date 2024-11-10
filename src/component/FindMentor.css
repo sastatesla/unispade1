@@ -1,0 +1,119 @@
+.find-mentor-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  text-align: center;
+  border-bottom: 1px solid #E7E3E9;
+  
+}
+
+.home-client-say-slide{
+  width: 60%;
+  margin: auto;
+}
+  
+  .find-mentor-description {
+    width: 966px;
+    height: 52px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+  }
+  
+  .dropdown-button {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border-radius: 50px;
+    background-color: #f8f8f8;
+    color: #b4aebd;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 60px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .dropdown-item {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .find-mentor-button {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #191e22;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: white;
+  }
+  
+
+  /* Responsive Styles */
+
+
+  @media screen and (max-width: 768px) {
+
+    .find-mentor-container{
+      margin-top: 10px;
+      height: auto;
+      margin-bottom: 50px;
+    }
+
+    .dropdown-button{
+      width: 320px;
+      height: 50px;
+    }
+  
+    .find-mentor-button{
+      width: 250px;
+      height: 50px;
+    }
+
+
+    .dropdown-container{
+      flex-direction: column;
+      margin: 40px 10px ;
+    }
+    .find-mentor-description{
+      width: auto;
+      margin: 10px 30px;
+      height: 206px;
+      padding: 10px 5px;
+      text-align: center;
+
+    }
+  }

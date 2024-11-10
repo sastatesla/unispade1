@@ -1,0 +1,13 @@
+.break-line {
+    background-color: #E7E3E9;
+    width: 100%;
+    height: 1.5px;
+    margin: 20px 0; /* Adds spacing around each break line */
+    border: none;
+}
+
+.Main {
+    width: 100%;
+    min-height: 100vh; /* Ensures the container stretches to at least the full viewport height */
+    box-sizing: border-box; /* Ensures padding is included in the total width and height */
+}
